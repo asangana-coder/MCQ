@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MCQ Grading</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Software Engineering Quiz</h1>
+    <div class="quiz-card" id="quizCard">
+      <div class="quiz-header">
+        <div class="quiz-meta">
+          <span id="questionNumber">Question 1 of 10</span>
+          <span id="timer">30s</span>
+        </div>
+        <h2 id="questionText"></h2>
+      </div>
+      <form id="quizForm">
+        <div id="options"></div>
+        <div class="controls">
+          <button type="button" id="nextButton">Next</button>
+        </div>
+      </form>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
